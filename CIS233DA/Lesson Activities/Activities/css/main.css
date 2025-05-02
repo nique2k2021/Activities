@@ -90,3 +90,33 @@ table {
     margin: 12px;
     font-weight: bold;
   }
+
+  th, td { 
+    padding: 8px;
+  }
+
+  tr{
+    border: 1px solid gray;
+  }
+
+  thead tr {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-bottom-width: medium;
+  }
+
+  colgroup#properties {
+    background-color: hsl(0, 0%, 88%);
+  }
+
+  colgroup#terrestrial {
+    background-color: hsl(193, 50%, 93%);
+  }
+
+  colgroup#jovian {
+    background-color: hsl(5, 49%, 90%)
+  }
+
+  colgroup#dwarf {
+    background-color: hsl(350, 80%, 90%);
+  }
