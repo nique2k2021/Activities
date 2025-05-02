@@ -66,3 +66,10 @@ ol li {
 pre {
     white-space: pre-wrap;
 }
+
+kbd {
+    padding: 2px;
+    background-color: hsl(0, 0%, 88%);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
