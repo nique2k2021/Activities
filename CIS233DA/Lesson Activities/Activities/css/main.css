@@ -1,0 +1,92 @@
+/*Author: Andrinique Williams*/
+header, main, footer {
+max-width: 800px;
+margin: auto;
+padding: 20px;
+font-style: italic;
+}
+
+header, footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+main {
+    background-color: rgb(221, 139, 242);
+}
+
+.discussion-placeholder, .ad-container {
+    border: 2px solid black;
+    padding: 10px;
+    width: 90%;
+    height: 100px;
+}
+
+.ad {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+blockquote {
+    width: 500px;
+    margin: auto;
+    padding: 16px;
+    border: 2px solid rgb(5, 9, 71);
+    border-left-width: 8px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+pre.poem {
+    border-style: solid;
+    border-color: hsl(271, 30%, 46%);
+    border-width: 6px 1px;
+    padding: 12px;
+    width: 50%;
+    margin-left: 16px;
+    background-color: hsl(271, 30%, 95%);
+
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+.code-snippet {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    background-color: hsl(193, 50%, 93%);
+    color: hsl(193, 70%, 20%);
+    border: 4px double hsl(193, 30%, 46%);
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+kbd {
+    padding: 2px;
+    background-color: hsl(0, 0%, 88%);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+
+cite {
+    color: rgb(5, 9, 71);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 12px auto;
+    border: 1px solid black;
+  }
+
+  caption {
+    margin: 12px;
+    font-weight: bold;
+  }
