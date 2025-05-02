@@ -49,3 +49,20 @@ pre.poem {
     background-color: hsl(271, 30%, 95%);
 
 }
+
+ol li {
+    margin-bottom: 8px;
+}
+
+.code-snippet {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    background-color: hsl(193, 50%, 93%);
+    color: hsl(193, 70%, 20%);
+    border: 4px double hsl(193, 30%, 46%);
+}
+
+pre {
+    white-space: pre-wrap;
+}
