@@ -73,3 +73,9 @@ kbd {
     border: 1px solid gray;
     border-radius: 3px;
 }
+
+
+cite {
+    color: rgb(5, 9, 71);
+    font-weight: bold;
+}
