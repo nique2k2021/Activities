@@ -17,7 +17,6 @@ main {
     background-color: rgb(221, 139, 242);
 }
 
-
 .discussion-placeholder, .ad-container {
     border: 2px solid black;
     padding: 10px;
@@ -29,3 +28,4 @@ main {
     text-transform: uppercase;
     text-align: center;
 }
+
