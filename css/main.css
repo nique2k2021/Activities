@@ -29,3 +29,23 @@ main {
     text-align: center;
 }
 
+blockquote {
+    width: 500px;
+    margin: auto;
+    padding: 16px;
+    border: 2px solid rgb(5, 9, 71);
+    border-left-width: 8px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+pre.poem {
+    border-style: solid;
+    border-color: hsl(271, 30%, 46%);
+    border-width: 6px 1px;
+    padding: 12px;
+    width: 50%;
+    margin-left: 16px;
+    background-color: hsl(271, 30%, 95%);
+
+}
