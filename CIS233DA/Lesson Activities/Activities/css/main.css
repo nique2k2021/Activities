@@ -200,3 +200,56 @@ table {
     background-color: hsl(271, 30%, 46%);
     color: hsl(271, 30%, 95%);
   }
+
+  .dropdown-nav {
+    background-color: hsl(0, 0%, 20%);
+    width: 85%;
+    padding: 0;
+    margin: 0 auto 350px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  .dropdown-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown button {
+    border: none;
+    background-color: inherit;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .dropdown:hover button {
+    background-color: hsl(200, 100%, 40%);
+  }
+
+  .dropdown ul {
+    display: none;
+    background-color: hsl(0, 0%, 98%);
+    min-width: 150px;
+  }
+
+  .dropdown:hover ul {
+    display: block;
+    position: absolute;
+  }
+
+  .dropdown a {
+    padding: 16px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .dropdown a:hover {
+    background-color: hsl(200, 53%, 86%);
+  }
