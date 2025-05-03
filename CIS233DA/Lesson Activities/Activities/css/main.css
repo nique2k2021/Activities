@@ -120,3 +120,42 @@ table {
   colgroup#dwarf {
     background-color: hsl(350, 80%, 90%);
   }
+
+  #account-creation {
+    width: 300px;
+    margin: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: white;
+    padding: 20px;
+  }
+
+  #account-creation fieldset {
+    padding: 24px;
+  }
+
+  #account-creation legend {
+    text-transform: uppercase;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  #account-creation .field-group {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  #account-creation .field-group label {
+    display: block;
+    margin: 8px auto;
+  }
+
+  #account-creation .field-group input {
+    width: 95%;
+    display: block;
+    height: 20px;
+  }
+
+  #account-creation button {
+    padding: 4px 8px;
+    margin: 8px 4px;
+  }
