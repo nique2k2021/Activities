@@ -160,4 +160,43 @@ table {
     margin: 8px 4px;
   }
 
-  
+  #form-login {
+    width: 35%;
+    margin: auto;
+  }
+
+  #form-login fieldset {
+    border-style: outset;
+    border-color: hsl(271, 30%, 46%);
+    background-color: hsl(271, 30%, 46%);
+  }
+
+  #form-login legend {
+    font-weight: bolder;
+    background-color: white;
+    padding: 3px 10px;
+    border: 1px solid hsl(271, 30%, 46%);
+  }
+
+  #form-login .field-group {
+    margin: 8px 0;
+  }
+
+  #form-login .field-group label {
+    width: 100px;
+    display: inline-block;
+  }
+
+  input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+  }
+
+  #form-login button {
+    float: right;
+    border-color: hsl(271, 30%, 46%);
+    padding: 4px 16px;
+    background-color: hsl(271, 30%, 46%);
+    color: hsl(271, 30%, 95%);
+  }
